@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* Global styles */
+        /* Internal CSS*/
+            font-family: Arial, sans-serif;
+            font-size: 12px; /* Font size set to Arial 12 */
+            color: #000; /* Font color set to black */
+            margin: 0;
+            padding: 20;
+           
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            
+        }
+        header {
+            background-color: #3c1d5a;
+            color: #14e1b1;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #c68484;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 20px; /* Added margin to separate from sections */
+        }
+        nav a {
+            color: #eae6ea;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold; /* Added font weight for better visibility */
+            font-size: 16px; /* Increased font size for better visibility */
+            transition: color 0.3s; /* Smooth transition for color change */
+        }
+        nav a:hover {
+            color: #ffcc00; /* Change text color on hover */
+            text-decoration: underline; /* Underline on hover for better interactivity */
+        }
+        .about-me,
+        .projects,
+        .contact {
+            background-color: #e3d02198;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        /* Responsive design */
+        @media (max-width: 768px) {
+            header {
+                font-size: 24px;
+            }
+            nav a {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Personal Portfolio</h1>
+        </header>
+        <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I'm passionate about creating amazing projects and sharing my journey.</p>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <div>
+                <h3>Profile Webpage</h3>
+                <p>A webpage containing my interests, skills, future projects, and contact details</p>
+                <p><a href="https://iridescent-mooncake-68a6f6.netlify.app/">Visit Profile Webpage</a></p>
+            </div>
+            <div>
+                <h3>Event Management Webpage</h3>
+                <p>A webpage containing 360 degrees Event Management services as well as wine tasting expertise</p>
+                <p><a href="https://loquacious-fudge-5613b5.netlify.app/">Visit Event Management Webpage</a></p>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <p>Email: ysm_advocate@yahoo.co.in</p>
+        </section>
+        <footer>
+            <p style="background-color:grey; text-align: center">
+                For copyrights contact 0433949422
+             </p>
+        </footer>
+    </div>
+</body>
+</html>
